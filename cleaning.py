@@ -1,4 +1,3 @@
-import numpy as np
 from random import shuffle
 from Bio import SeqIO
 import re 
@@ -21,6 +20,10 @@ def clean_dFAM(dFAM, removed_seq):
     except: 
         removed_seq += 1
     
+    # vocabulary = ["DNA", "RC", "MITE", "LINE", "Retroposon"]
+    # if any(TE in dFAM for TE in vocabulary) and "/" in dFAM:
+    #     print(dFAM)
+    
     return family, removed_seq
                     
 
@@ -34,9 +37,6 @@ def clean_plantDB(plantDB):
     """
     return plantDB.split("|")[3].split(":")[1] ### for superfamily
 
-
-def clean_riceDB(riceDB):
-    pass
 
 
 def classification(file_seq, n_missing, minimum):
