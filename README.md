@@ -7,10 +7,9 @@ The project consist of a comparison between two machine learning models for tran
 Présentation:
 | Program                       |                                       Description                                        |
 |-------------------------------|:----------------------------------------------------------------------------------------:|
-| Transformation de BWT         |               Méthode de réorganisation de données : triage et regroupement              |
-| Recontruction de BWT          |          Reprends la séquence transformée et reproduit la séquence initiale              |
-| Compression d'Huffman         |            Méthode de compression des séquences d'ADN en binaire puis ascii              |
-|  Huffman decompression        |            Décompression de la séquence ascii en séquence d'ADN initiale                 |
+| Principal component analysis  |                   Méthode de réorganisation de données : triage et regroupement          |
+| Support vector machine        |          Reprends la séquence transformée et reproduit la séquence initiale              |
+| Multi layer perceptron        |            Méthode de compression des séquences d'ADN en binaire puis ascii              |
  
 
 # Table of contents
