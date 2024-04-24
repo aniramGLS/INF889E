@@ -7,12 +7,9 @@ from sklearn.metrics import  accuracy_score, confusion_matrix, ConfusionMatrixDi
 from sklearn.model_selection import cross_val_score
 
 
-
 #################################
 #####    MODEL TRAINING     #####
 #################################
-
-
 
 def run_SVM(X_train, y_train, X_test, y_test, kmer):
     """
@@ -22,16 +19,24 @@ def run_SVM(X_train, y_train, X_test, y_test, kmer):
     X_train, y_train -- training dataset
     X_test, y_test -- testing dataset
     """
-    model = svm.SVC(C=7.0, kernel='linear', class_weight = None) ### model initialization
-    #rfe = RFE(model, n_features_to_select = 50, step = 2)  ### feature selection initialization to keep only 200 features
-    #X_train = rfe.fit_transform(X_train, y_train)       #### feature selection on training dataset
-    #X_test = rfe.transform(X_test)              #### feature selection on testing dataset
+    model = svm.SVC(C=7.0, kernel='linear', class_weight = None, random_state=26) ### model initialization
     model.fit(X_train, y_train)
     y_prediction = model.predict(X_test)        ### model prediction
     print(classification_report(y_test, y_prediction, digits = 3))   ### classification evaluation for all superfamily 
     c_matrix = confusion_matrix(y_test, y_prediction, labels=model.classes_)
-    figure = ConfusionMatrixDisplay(confusion_matrix=c_matrix, display_labels=model.classes_) ### plot confusion matrix graph
     
-    figure.plot()   
-    plt.subplots()
-    plt.savefig(f"confusion_matrix_SVM_{kmer}.png")         ### save matrix figure
+    classification_report_dict_keys = list(classification_report(y_test, y_prediction, output_dict= True).keys())[:-3]
+
+    fig, ax = plt.subplots(figsize=(15, 14))
+    sns.heatmap(c_matrix, 
+                cmap = 'viridis', 
+                annot = True, 
+                fmt = ".0f", 
+                linewidth = 0.1, 
+                xticklabels = classification_report_dict_keys, 
+                yticklabels = classification_report_dict_keys)
+    plt.title("Confusion matrix")
+    plt.xlabel("Predicted label")
+    plt.ylabel("True label")
+
+    plt.savefig(f"confusion_matrix_SVM.png")         ### save confusion matrix figure
