@@ -20,10 +20,6 @@ def clean_dFAM(dFAM, removed_seq):
     except: 
         removed_seq += 1
     
-    # vocabulary = ["DNA", "RC", "MITE", "LINE", "Retroposon"]
-    # if any(TE in dFAM for TE in vocabulary) and "/" in dFAM:
-    #     print(dFAM)
-    
     return family, removed_seq
                     
 
