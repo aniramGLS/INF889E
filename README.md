@@ -1,15 +1,15 @@
 # INF889E PROJECT 2024
 
-Python script developed for the course INF889E. 
-The project consist of a comparison between two machine learning models for transposable elements (TE) classification. It has as goal to detecting patterns behind DNA sequence of TE for classifying superfamily.
+Script python développé pour le cours INF88E.
+Le projet consiste à la comparaison de deux modèles de machine learning dans la détection de superfamille d'éléments transposable. Il a pour but de détecter les patterns spécifiques aux séquences des éléments transposables pour prédire et classifier la superfamille
 
 
 Présentation:
 | Program                       |                                       Description                                        |
 |-------------------------------|:----------------------------------------------------------------------------------------:|
-| Principal component analysis  |                   Méthode de réorganisation de données : triage et regroupement          |
-| Support vector machine        |          Reprends la séquence transformée et reproduit la séquence initiale              |
-| Multi layer perceptron        |            Méthode de compression des séquences d'ADN en binaire puis ascii              |
+| Principal component analysis  |            Exploration des variations entre les différents éléments transposables        |
+| Support vector machine        |                         Lance l'entraînement du modèle SVM                               |
+| Multi layer perceptron        |                         Lance l'entraînement du modèle MLP                               |
  
 
 # Table of contents
@@ -21,15 +21,21 @@ Présentation:
 
 ## Prerequisites <a name="Prerequisites"></a>
 
-For correctly use this script you need to install or update that library:
+Pour pouvoir lancer correctement ce script, il est important d'avoir ces packages suivants : 
 
-- tkinterdnd2
-- bitarray
+biopython                    
+matplotlib                   
+numpy                        
+pandas                      
+scikit_learn                 
+seaborn
+sklearn  
+h5py
 
-For correctly use this script you need to download TE dna sequences from multiple public databases
-  riceTElib : https://github.com/oushujun/riceTElib
-  dFAM : 
-  PlantDB
+Les séquences d'éléments transposables ont été extraites à partir de ces différentes bases de données : 
+riceTElib : https://github.com/oushujun/riceTElib
+dFAM : 
+PlantDB
 
 # Tape in console
 
