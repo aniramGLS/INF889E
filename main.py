@@ -1,3 +1,9 @@
+#####                         Author: GOLIASSE  Marina                      #####
+#####          This program is inspired by the work of Dylan Lebatteux      #####
+#####                                                                       #####
+#################################################################################
+
+
 import argparse
 from cleaning import classification, training_split, make_matrix
 from features import normalization, run_pca
