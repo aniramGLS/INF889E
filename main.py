@@ -2,7 +2,7 @@ import argparse
 from cleaning import classification, training_split, make_matrix
 from features import normalization, run_pca
 from SVM import run_SVM
-from MPL import run_MLP
+from MLP import run_MLP
 
 
 if __name__ == "__main__":
