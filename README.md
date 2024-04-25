@@ -34,16 +34,16 @@ h5py
 
 ## How to download dataset <a name="How-to-download-the-dataset"></a>
 
-Les séquences d'éléments transposables ont été extraites à partir de ces différentes bases de données : \n
+Les séquences d'éléments transposables ont été extraites à partir de ces différentes bases de données :
 
-riceTElib : https://github.com/oushujun/riceTElib \n
-dFAM : https://github.com/Dfam-consortium/FamDB/ \n
+riceTElib : https://github.com/oushujun/riceTElib 
+dFAM : https://github.com/Dfam-consortium/FamDB/
 PlantLTRDB \n
 
 
 ## How to run the program <a name="How-to-run-the-program"></a>
-Pour en savoir plus sur le script : \n
-python main.py -h \n
+Pour en savoir plus sur le script :
+python main.py -h
 
 Exemple de lancement : \n
 python  main_mlp.py -f ../TE_total.fa -n 3 -k 5 -min 15
