@@ -46,7 +46,7 @@ Pour en savoir plus sur le script :
 python main.py -h  
 
 Exemple de lancement :  
-python  main_mlp.py -f ../TE_total.fa -n 3 -k 5 -min 15  
+python  main.py -f ../TE_total.fa -n 3 -k 5 -min 15  
 -k : longueur de k-mer sélectionnée  
 -n : pourcentage nucléotide manquants accepté  
 -min : nombre de séquences minimum accepté par superfamille  
