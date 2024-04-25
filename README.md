@@ -14,7 +14,7 @@ Présentation:
 
 # Table of contents
 * [Prerequisites](#Prerequisites)
-* [How to run the program](#How-to-run-the-program)
+* [How to download the dataset](#How-to-download-the-dataset)
 * [Technologies use](#Technologies-use)
 * [Authors](#Authors)
 * [License](#License)
