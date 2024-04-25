@@ -34,18 +34,18 @@ h5py
 
 ## How to download dataset <a name="How-to-download-the-dataset"></a>
 
-Les séquences d'éléments transposables ont été extraites à partir de ces différentes bases de données : 
+Les séquences d'éléments transposables ont été extraites à partir de ces différentes bases de données : \n
 
-riceTElib : https://github.com/oushujun/riceTElib
-dFAM : https://github.com/Dfam-consortium/FamDB/
-PlantLTRDB
+riceTElib : https://github.com/oushujun/riceTElib \n
+dFAM : https://github.com/Dfam-consortium/FamDB/ \n
+PlantLTRDB \n
 
 
 ## How to run the program <a name="How-to-run-the-program"></a>
-Pour en savoir plus sur le script : 
-python main.py -h 
+Pour en savoir plus sur le script : \n
+python main.py -h \n
 
-Exemple de lancement :
+Exemple de lancement : \n
 python  main_mlp.py -f ../TE_total.fa -n 3 -k 5 -min 15
 -k : longueur de k-mer sélectionnée 
 -n : pourcentage nucléotide manquants accepté
