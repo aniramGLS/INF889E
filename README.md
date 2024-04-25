@@ -45,7 +45,7 @@ For launch program tape in console:
 
 python3 .\main.py
 ## Technologies use <a name="Technologies-use"></a>
-Use python 3.9.10 version and compatible with python 3.9.*
+Use python python/3.10.13 version or more
 
 ## Authors <a name="Authors"></a>
 Autrice : Marina GOLIASSE 
