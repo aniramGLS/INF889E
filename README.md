@@ -34,10 +34,10 @@ h5py
 
 ## How to download dataset <a name="How-to-download-the-dataset"></a>
 
-Les séquences d'éléments transposables ont été extraites à partir de ces différentes bases de données :
+Les séquences d'éléments transposables ont été extraites à partir de ces différentes bases de données :  
 
-riceTElib : https://github.com/oushujun/riceTElib 
-dFAM : https://github.com/Dfam-consortium/FamDB/
+riceTElib : https://github.com/oushujun/riceTElib  
+dFAM : https://github.com/Dfam-consortium/FamDB/  
 PlantLTRDB \n
 
 
