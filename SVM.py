@@ -11,7 +11,7 @@ from sklearn.model_selection import cross_val_score
 #####    MODEL TRAINING     #####
 #################################
 
-def run_SVM(X_train, y_train, X_test, y_test, kmer):
+def run_SVM(X_train, y_train, X_test, y_test):
     """
     Training SVM model on training set and evaluation of the model
 
