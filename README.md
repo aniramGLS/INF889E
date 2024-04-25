@@ -32,20 +32,14 @@ seaborn
 sklearn  
 h5py
 
+## How to download dataset <a name="How-to-download-the-dataset"></a>
+
 Les séquences d'éléments transposables ont été extraites à partir de ces différentes bases de données : 
 riceTElib : https://github.com/oushujun/riceTElib
-dFAM : 
+dFAM : https://github.com/Dfam-consortium/FamDB/
 PlantDB
 
-# Tape in console
 
-pip install tkinterdnd2      #Install tkinterdnd2 librairy
-pip install bitarray      #Install bitarray librairy
-
-    or
-
-pip install tkinterdnd2 --upgrade     #Upgrade tkinterdnd2 library
-pip install bitarray --upgrade         #Upgrade bitarray library
 ## How to run the program <a name="How-to-run-the-program"></a>
 For launch program tape in console:
 
