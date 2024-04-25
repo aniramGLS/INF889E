@@ -41,9 +41,12 @@ PlantDB
 
 
 ## How to run the program <a name="How-to-run-the-program"></a>
-For launch program tape in console:
+Pour en savoir plus sur le script : 
+python main.py -h 
 
-python3 .\main.py
+Exemple de lancement :
+python  main_mlp.py -f ../TE_total.fa -n 3 -k 5 -min 15
+
 ## Technologies use <a name="Technologies-use"></a>
 Use python python/3.10.13 version or more
 
