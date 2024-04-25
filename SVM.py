@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 from sklearn.feature_selection import RFE
 from sklearn.metrics import  accuracy_score, confusion_matrix, ConfusionMatrixDisplay, classification_report
 from sklearn.model_selection import cross_val_score
+import seaborn as sns
+
 
 
 #################################
