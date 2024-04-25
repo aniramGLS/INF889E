@@ -38,18 +38,18 @@ Les séquences d'éléments transposables ont été extraites à partir de ces d
 
 riceTElib : https://github.com/oushujun/riceTElib  
 dFAM : https://github.com/Dfam-consortium/FamDB/  
-PlantLTRDB \n
+PlantLTRDB
 
 
 ## How to run the program <a name="How-to-run-the-program"></a>
 Pour en savoir plus sur le script :
-python main.py -h
+python main.py -h  
 
-Exemple de lancement : \n
-python  main_mlp.py -f ../TE_total.fa -n 3 -k 5 -min 15
--k : longueur de k-mer sélectionnée 
--n : pourcentage nucléotide manquants accepté
--min : nombre de séquences minimum accepté par superfamille
+Exemple de lancement :  
+python  main_mlp.py -f ../TE_total.fa -n 3 -k 5 -min 15  
+-k : longueur de k-mer sélectionnée  
+-n : pourcentage nucléotide manquants accepté  
+-min : nombre de séquences minimum accepté par superfamille  
 
 ## Technologies use <a name="Technologies-use"></a>
 Use python python/3.10.13 version or more
