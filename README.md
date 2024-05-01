@@ -38,7 +38,7 @@ Les séquences d'éléments transposables ont été extraites à partir de ces d
 
 riceTElib : https://github.com/oushujun/riceTElib  
 dFAM : https://github.com/Dfam-consortium/FamDB/  
-PlantLTRDB
+PlantLTRDB : https://bioinformatics.um6p.ma/PlantLTRdb/downloads
 
 
 ## How to run the program <a name="How-to-run-the-program"></a>
